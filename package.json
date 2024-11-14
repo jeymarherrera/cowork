@@ -1,0 +1,28 @@
+{
+  "name": "cowork",
+  "version": "1.0.0",
+  "description": "Estos son los pasos y comandos que debes correr al momento de clonar el proyecto",
+  "main": "postcss.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "production": "mix --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sweetalert2": "^11.14.5",
+    "webpack": "^5.96.1"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.80.7",
+    "sass-loader": "^16.0.3"
+  }
+}
