@@ -1,0 +1,1 @@
+// Panel de administración para gestionar usuarios, salas y reservas.

@@ -25,7 +25,7 @@
         </div>
 
         <button type="submit" class="btn btn-primary">Actualizar Sala</button>
-        <a href="{{ route('salas.manage') }}" class="btn btn-secondary">Cancelar</a>
+        <a href="{{ route('salas.index') }}" class="btn btn-secondary">Cancelar</a>
     </form>
 </div>
 {!! \App\Helpers\AlertHelper::renderSweetAlert() !!}
