@@ -16,7 +16,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link {{ request()->routeIs('salas.manage') ? 'active' : '' }}" href="{{ route('salas.manage') }}">
+                    <a class="nav-link {{ request()->routeIs('salas.index') ? 'active' : '' }}" href="{{ route('salas.index') }}">
                         {{ __('Salas') }}
                     </a>
                 </li>

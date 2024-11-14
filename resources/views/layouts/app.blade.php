@@ -37,7 +37,7 @@
                             <a class="nav-link" href="{{ route('reservas.manage') }}">{{ __('Reservas') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('salas.manage') }}">{{ __('Salas') }}</a>
+                            <a class="nav-link" href="{{ route('salas.index') }}">{{ __('Salas') }}</a>
                         </li>
                         @elseif (Auth::user()->role === 'cliente')
                         <li class="nav-item">
